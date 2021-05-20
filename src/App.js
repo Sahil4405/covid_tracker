@@ -3,6 +3,8 @@ import React from "react";
 import Navbar from "./components/Navbar";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Home from "./pages/Home";
+import Report from "./pages/Report";
+import Table from "./pages/Table";
 
 // import Console from './console';
 // import Covid from './components/mainPage';
@@ -33,6 +35,7 @@ function App() {
         <Switch>
           <Route path="/" exact component={Home} />
         </Switch>
+        {/* <Home/> */}
         
       </Router>
     </>
