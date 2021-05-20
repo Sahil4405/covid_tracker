@@ -1,0 +1,17 @@
+/* .body{
+    background: linear-gradient(-100deg,white 50%,deeppink 50%);
+} */
+
+.prec{
+    color: rgb(243, 10, 57);
+    text-decoration-line: underline;
+    text-decoration-color: black;
+    text-decoration-style: solid;
+    text-underline-offset: 10px;
+}
+
+.cm{
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 10px;
+}

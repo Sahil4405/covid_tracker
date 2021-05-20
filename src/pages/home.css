@@ -1,0 +1,50 @@
+.card{
+    height: 130px;
+    /* border: 1px solid red; */
+
+}
+
+.card-title{
+    font-weight: bold;
+    font-size: larger;
+}
+
+.dec{
+    background-color: #6AD00B;
+    cursor: pointer;
+}
+
+.dec:hover{
+    background-color: #68AB33;
+}
+
+.case{
+    background-color: #FB6C03;
+    cursor: pointer;
+}
+
+.case:hover{
+    background-color: #E96B0E;
+}
+
+.confirm{
+    background-color: #03FEC5;
+    cursor: pointer;
+}
+
+.confirm:hover{
+    background-color: #31BF9E;
+}
+
+.recov{
+    background-color: #F0FC00;
+    cursor: pointer;
+}
+
+.recov:hover{
+    background-color: #D1D921;
+}
+
+/* .card-style{
+    height: 70px;
+} */

@@ -1,0 +1,52 @@
+.hero{
+    color: crimson;
+    text-decoration-line: underline;
+    text-decoration-color: black;
+    text-decoration-style: solid;
+    text-underline-offset: 10px;
+}
+
+.box{
+    border: 1px solid black;
+    position: relative;
+    width: 300px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.box img{
+    height: 300px;
+    /* width: 300px; */
+    width: 100%;    
+}
+
+.box .content{
+    color: #fff;
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 100%;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    transition: all 0.3s;
+}
+
+.box:hover .content{
+    cursor: pointer;
+    top: 85%;
+}
+
+@media (max-width: 992px){
+    .center{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+}
+
+/* .text-center{
+    width: auto;
+} */
